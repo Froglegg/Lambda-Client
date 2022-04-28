@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1120.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.3",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.2.3",
+    "socket.io": "^4.5.0",
+    "sqs-consumer": "^5.7.0"
+  }
+}
