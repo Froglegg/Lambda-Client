@@ -12,3 +12,6 @@ export TEST_LAMBDA_SQS_URL_POLL_MESSAGE=''
 4. Set the `SUCCESS_QUEUE` environemnt variable for the AWS Lambda function to the url of your success queue in the AWS Lambda console. 
 5. Run `npm install` within the frontend and client 
 6. cd into server and `npm run start`, and in a separate session, cd into frontend and run `npm run start`. 
+
+## NOTE
+Make sure you've set your RAM to 3008 GB in your Lambda function configuration, as AWS doesn't spin up new vCPU's until about 1.8 GB of memory is used.
